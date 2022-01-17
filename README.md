@@ -28,3 +28,8 @@ Load some initial data
     .venv/bin/dbt seed
 
 verify in the web interface that you have data.
+
+Random hints
+------------
+
+See your queries using http://localhost:8080/?pgsql=db&username=playground&db=postgres&ns=pg_catalog&select=pg_stat_activity

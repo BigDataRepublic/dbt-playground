@@ -5,8 +5,8 @@ playground:
     dev:
       type: postgres
       host: localhost
-      user: postgres
-      password: example
+      user: playground
+      password: playground
       port: 5432
       dbname: playground
       schema: dbt_playground

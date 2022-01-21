@@ -1,4 +1,4 @@
-#!/bin/bsah
+#!/bin/bash
 set -e
 export POETRY_VIRTUALENVS_IN_PROJECT=true
 export DBT_PROFILES_DIR=./profiles_dir
